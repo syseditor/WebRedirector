@@ -11,8 +11,7 @@ def clear():
 root = Tk()
 root.title("Web Redirector")
 
-e1 = Entry(root)
-e1.grid(row=2, column=1, sticky=W)
+e1 = Entry(root).grid(row=2, column=1, sticky=W)
 b1 = Button(root, text="Search", fg="green", bg="black", command=func).grid(row=3, column=1, sticky=W)
 b2 = Button(root, text="Clear", fg="red", bg="black", command=clear).grid(row=4, column=1, sticky=W)
 
